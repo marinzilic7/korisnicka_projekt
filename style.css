@@ -1,0 +1,68 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container h1{
+    letter-spacing: 3px;
+    font-size: 56px;
+    
+}
+
+#num{
+    font-size:50px;
+    margin-top:30px;
+}
+
+.options{
+    display: flex;
+    margin-top:60px;
+}
+
+.options button{
+    margin-left: 30px;
+    position: relative; 
+    right:20px;
+    padding: 5px;
+    width: 120px;
+    font-size: 18px;
+    font-family:'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#first_button{
+    background-color: #D22B2B;
+    color:#fff;
+   
+    
+}
+
+
+#second_button{
+    color:#fff; 
+    background-color:#DAA520;
+}
+
+#third_button{
+    color:#fff; 
+    background-color:#097969;
+}
+
